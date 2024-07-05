@@ -7,4 +7,5 @@ then
 echo "$NUMBER is greaterthan 10"
 
 else
-echo "$Number is not greaterthan 10"
+echo "$NUMBER is not greaterthan 10"
+fi
