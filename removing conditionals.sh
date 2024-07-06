@@ -14,7 +14,7 @@ if [ $? -ne 0 ]
 then
  
  echo "Installation of postfix is error(not remove)"
- exit1
+ exit 1
  else
  echo "Installation of postfix is sucess(removed)"
 
@@ -25,8 +25,7 @@ then
  then
  
   echo "Installation of maven is error(not removed)"
-  exit1
+  exit 1
   else
-  echo installation of maven is sucess(removed)"
-
+  echo "Installation of maven is sucess(removed)"
   fi
