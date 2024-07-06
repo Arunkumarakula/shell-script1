@@ -1,5 +1,5 @@
 #!bin/bash
-#i nstalling packages using loop
+#installing packages using loop
 
 for i in $@
 do 
