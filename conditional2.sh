@@ -17,7 +17,8 @@ then
  else
  echo "Installation of postfix is sucess"
 
- fiyum install maven -y
+ fi
+ yum install maven -y
  if [ $? -ne 0]
  then
   echo "Installation of maven is error"
