@@ -19,9 +19,11 @@ then
  echo "Installation of postfix is sucess"
 
  fi
+
  yum install maven -y
  if [ $? -ne 0 ]
  then
+ 
   echo "Installation of maven is error"
   exit1
   else
