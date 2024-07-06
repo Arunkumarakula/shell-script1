@@ -26,5 +26,5 @@ then
   echo "Installation of maven is error"
   exit 1
   else
-  echo installation of maven is sucess"
+  echo "installation of maven is sucess"
   fi
