@@ -9,23 +9,23 @@ echo "Error:: please run the script with the root access"
 
 fi
 
-yum install postfix -y
+yum remove postfix -y
 if [ $? -ne 0 ]
 then
  
- echo "Installation of postfix is error"
- exit1
+ echo "Installation of postfix is error(not removed)"
+ exit 1
  else
  echo "Installation of postfix is sucess"
 
  fi
 
- yum install maven -y
+ yum remove maven -y
  if [ $? -ne 0 ]
  then
- 
-  echo "Installation of maven is error"
-  exit1
+
+  echo "Installation of maven is error(not removed)"
+  exit 1
   else
   echo installation of maven is sucess"
 
